@@ -13,6 +13,11 @@
 		1706A3AE28A5A85B006E1D05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1706A3AC28A5A85B006E1D05 /* Main.storyboard */; };
 		1706A3B028A5A85C006E1D05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1706A3AF28A5A85C006E1D05 /* Assets.xcassets */; };
 		1706A3B328A5A85C006E1D05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1706A3B128A5A85C006E1D05 /* LaunchScreen.storyboard */; };
+		1706A3BB28A5B3D1006E1D05 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1706A3BA28A5B3D1006E1D05 /* TableViewController.swift */; };
+		1706A3BD28A696BB006E1D05 /* ProgramItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1706A3BC28A696BB006E1D05 /* ProgramItems.swift */; };
+		1706A3BF28AA8913006E1D05 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1706A3BE28AA8913006E1D05 /* PDFViewController.swift */; };
+		1706A3C128AAA929006E1D05 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1706A3C028AAA929006E1D05 /* TabBarController.swift */; };
+		1706A3C328AAC19C006E1D05 /* ChurchProgram.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1706A3C228AAC19C006E1D05 /* ChurchProgram.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		1706A3AF28A5A85C006E1D05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1706A3B228A5A85C006E1D05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1706A3B428A5A85C006E1D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1706A3BA28A5B3D1006E1D05 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		1706A3BC28A696BB006E1D05 /* ProgramItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramItems.swift; sourceTree = "<group>"; };
+		1706A3BE28AA8913006E1D05 /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		1706A3C028AAA929006E1D05 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		1706A3C228AAC19C006E1D05 /* ChurchProgram.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ChurchProgram.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +66,18 @@
 		1706A3A528A5A85B006E1D05 /* Program Builder */ = {
 			isa = PBXGroup;
 			children = (
+				1706A3BC28A696BB006E1D05 /* ProgramItems.swift */,
+				1706A3BE28AA8913006E1D05 /* PDFViewController.swift */,
 				1706A3A628A5A85B006E1D05 /* AppDelegate.swift */,
 				1706A3A828A5A85B006E1D05 /* SceneDelegate.swift */,
 				1706A3AA28A5A85B006E1D05 /* ViewController.swift */,
+				1706A3BA28A5B3D1006E1D05 /* TableViewController.swift */,
+				1706A3C028AAA929006E1D05 /* TabBarController.swift */,
 				1706A3AC28A5A85B006E1D05 /* Main.storyboard */,
 				1706A3AF28A5A85C006E1D05 /* Assets.xcassets */,
 				1706A3B128A5A85C006E1D05 /* LaunchScreen.storyboard */,
 				1706A3B428A5A85C006E1D05 /* Info.plist */,
+				1706A3C228AAC19C006E1D05 /* ChurchProgram.pdf */,
 			);
 			path = "Program Builder";
 			sourceTree = "<group>";
@@ -127,6 +142,7 @@
 			files = (
 				1706A3B328A5A85C006E1D05 /* LaunchScreen.storyboard in Resources */,
 				1706A3B028A5A85C006E1D05 /* Assets.xcassets in Resources */,
+				1706A3C328AAC19C006E1D05 /* ChurchProgram.pdf in Resources */,
 				1706A3AE28A5A85B006E1D05 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +157,10 @@
 				1706A3AB28A5A85B006E1D05 /* ViewController.swift in Sources */,
 				1706A3A728A5A85B006E1D05 /* AppDelegate.swift in Sources */,
 				1706A3A928A5A85B006E1D05 /* SceneDelegate.swift in Sources */,
+				1706A3BF28AA8913006E1D05 /* PDFViewController.swift in Sources */,
+				1706A3C128AAA929006E1D05 /* TabBarController.swift in Sources */,
+				1706A3BD28A696BB006E1D05 /* ProgramItems.swift in Sources */,
+				1706A3BB28A5B3D1006E1D05 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
